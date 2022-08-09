@@ -66,14 +66,14 @@ while True:
 
    #imshow function to display the various frames
     cv2.imshow("Live Footage", greyscale_frame)
-    cv2.imshow("Color Frame", frame)
+    cv2.imshow("Main Frame", frame)
     cv2.imshow("Delta Frame", delta_frame)
     cv2.imshow("Threshold Frame", threshold_frame)
     
 
     #Positioning all 4 windows
     cv2.moveWindow("Live Footage", 325, 30)
-    cv2.moveWindow("Color Frame", 980, 30)
+    cv2.moveWindow("Main Frame", 980, 30)
     cv2.moveWindow("Delta Frame", 325, 530)
     cv2.moveWindow("Threshold Frame", 980, 530)
    
